@@ -8,6 +8,9 @@
 <loc>/strpg-hero/blog/</loc>
 </url>
 <url>
+<loc>/strpg-hero/fasa-books/</loc>
+</url>
+<url>
 <loc>/strpg-hero/</loc>
 </url>
 <url>
@@ -29,9 +32,6 @@
 <loc>/strpg-hero/skills/</loc>
 </url>
 <url>
-<loc>/strpg-hero/source-materials/</loc>
-</url>
-<url>
 <loc>/strpg-hero/starfleet-packages/</loc>
 </url>
 <url>
@@ -42,5 +42,9 @@
 </url>
 <url>
 <loc>/strpg-hero/weapons/</loc>
+</url>
+<url>
+<loc>/strpg-hero/assets/files/Tavares_Deck_Plans.pdf</loc>
+<lastmod>2015-08-18T17:51:54-04:00</lastmod>
 </url>
 </urlset>
