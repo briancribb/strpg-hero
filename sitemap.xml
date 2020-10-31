@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/strpg-hero/jekyll/update/2020/10/15/welcome-to-jekyll.html</loc>
-<lastmod>2020-10-15T07:11:56-04:00</lastmod>
-</url>
-<url>
 <loc>/strpg-hero/blog/</loc>
 </url>
 <url>
@@ -45,6 +41,6 @@
 </url>
 <url>
 <loc>/strpg-hero/assets/files/Tavares_Deck_Plans.pdf</loc>
-<lastmod>2015-08-18T17:51:54-04:00</lastmod>
+<lastmod>2020-10-31T05:56:45-04:00</lastmod>
 </url>
 </urlset>
