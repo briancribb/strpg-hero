@@ -1,1 +1,1 @@
-Sitemap: /strpg-hero/sitemap.xml
+Sitemap: http://localhost:4000/strpg-hero-source/sitemap.xml
