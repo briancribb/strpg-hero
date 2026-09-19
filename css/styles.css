@@ -10399,15 +10399,15 @@ img.shuttle {
 }
 
 .stars-large {
-  background-image: url(/img/layout/stars_large.png);
+  background-image: url({{site.baseURL}}/img/layout/stars_large.png);
 }
 
 .stars-medium {
-  background-image: url(/img/layout/stars_medium.png);
+  background-image: url({{site.baseURL}}/img/layout/stars_medium.png);
 }
 
 .stars-small {
-  background-image: url(/img/layout/stars_small.png);
+  background-image: url({{site.baseURL}}/img/layout/stars_small.png);
 }
 
 @media (max-width: 575.98px) {
