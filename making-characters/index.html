@@ -1,145 +1,132 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Making Characters</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="/strpg-hero/assets/css/styles.css">
-    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
+		<meta name="description" content="A fan-made RPG setting using content from Hero System and the FASA Star Trek RPG">
     <meta name="author" content="Brian Cribb">
-    <link rel="icon" href="/strpg-hero/assets/img/favicon.ico">
-  </head>
-  <body class="position-relative">
-    <header class="main-header">
-      <div class="navbar-wrap bg-primary">
-
+		<title>Making Characters - Star Trek Hero RPG</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<link rel="stylesheet" href="/css/styles.css?cb=1745959438603">
+	</head>
+	<body class="position-relative h-100">
+		<header class="main-header">
+			
+<div class="navbar-wrap bg-primary">
 <div class="container">
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <a class="navbar-brand" href="/strpg-hero/">STRPG</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">STRPG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0">
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Game
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Game
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item" href="/strpg-hero/setting/">Setting</a>
+                  <li><a class="dropdown-item" href="/setting/">Setting</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/trade/">Trade</a>
+                  <li><a class="dropdown-item" href="/trade/">Trade</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/tavares-commercial-freighter/">Tavares Commercial Freighter</a>
+                  <li><a class="dropdown-item" href="/tavares-commercial-freighter/">Tavares Commercial Freighter</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/klingon-trade-ship-vorn/">Klingon Trade Ship Vorn</a>
+                  <li><a class="dropdown-item" href="/klingon-trade-ship-vorn/">Klingon Trade Ship Vorn</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/remora-infiltration-shuttle/">Remora Infiltration Shuttle</a>
+                  <li><a class="dropdown-item" href="/remora-infiltration-shuttle/">Remora Infiltration Shuttle</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item" href="/strpg-hero/fasa-books/">FASA Books</a>
+                  <li><a class="dropdown-item" href="/fasa-books/">FASA Books</a></li>
                 
-                  <a class="dropdown-item" href="http://briancribb.github.io/strpg-timeline/tl-react/" target="_blank">Timeline</a>
+                  <li><a class="dropdown-item" href="http://briancribb.github.io/strpg-timeline/tl-react/">Timeline</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                HERO System
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              HERO System
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item active" href="/strpg-hero/making-characters/">Making Characters</a>
+                  <li><a class="dropdown-item" href="/making-characters/">Making Characters</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/skills/">Skills</a>
+                  <li><a class="dropdown-item" href="/skills/">Skills</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/racial-packages/">Racial Packages</a>
+                  <li><a class="dropdown-item" href="/racial-packages/">Racial Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/starfleet-packages/">Starfleet Packages</a>
+                  <li><a class="dropdown-item" href="/starfleet-packages/">Starfleet Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/merchant-packeges/">Merchant Packages</a>
+                  <li><a class="dropdown-item" href="/merchant-packeges/">Merchant Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/weapons/">Weapons</a>
+                  <li><a class="dropdown-item" href="/weapons/">Weapons</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/martial-arts/">Martial Arts</a>
+                  <li><a class="dropdown-item" href="/martial-arts/">Martial Arts</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
       </ul>
-      </div>
-    </nav>
-
+    </div>
   </div>
+</nav>
+</div>
 </div>
 
-
-      <div class="d-none d-md-block bg-space p-3 pt-4">
+			<div class="d-none d-md-block bg-space p-3 pt-4">
   <div class="container">
     <div class="row">
       <div class="col col-sm-8">
-        <a class="masthead-homelink" href="/strpg-hero/" title="STRPG" rel="home">
-          <img id="site-logo" class="site-logo" alt="Star Trek RPG" src="/strpg-hero/assets/img/layout/startrekrpg_logo.png">
-          <h1 class="site-title sr-only">STRPG</h1>
+        <a class="masthead-homelink" href="/" title="STRPG" rel="home">
+          <img id="site-logo" class="site-logo" alt="Star Trek RPG" src="/img/E4zjhii8Uu-400.png" loading="lazy" decoding="async" width="480" height="95" srcset="/img/E4zjhii8Uu-400.png 400w, /img/E4zjhii8Uu-480.png 480w" sizes="auto">
+          <h1 class="site-title visually-hidden">Star Trek RPG</h1>
           <p class="lead site-description m-0 p-0">HERO System in a FASA Star Trek setting</p>
         </a>
       </div>
       <div class="col col-sm-4">
-        <img id="site-enterprise" class="site-enterprise" alt="Starship Enterprise" src="/strpg-hero/assets/img/layout/bg_enterprise.jpg">
+        <img id="site-enterprise" class="site-enterprise" alt="Starship Enterprise" src="/img/1dqWunAMlO-250.jpeg" loading="lazy" decoding="async" width="250" height="100">
       </div>
     </div>
   </div>
 </div>
-    </header>
-    <main class="content py-4">
+
+		</header>
+		<main class="content py-4">
       <div class="container">
-        <h1 id="making-characters">Making Characters</h1>
-
+				<h1>Making Characters</h1>
 <p class="lead">For the most part, our characters will be the same as those in any other HERO System 5th Edition game, aside from the setting. Characters have <strong>75 base points</strong> with up to <strong>75 points in disadvantages</strong>, for a total of 150. The maximum points for a single disadvantage is 25 points. This comes from the <strong>Character Types Guidelines Table</strong> on page 28 of the 5th Edition Hero System book.</p>
-
-<p><img alt="Drawing of Jaan Holona with Cargomaster Kinnda" class="img-fluid d-block mx-auto" src="/strpg-hero/generated/assets/img/pages/space-lanes-66-800-1d11580c7.jpg" srcset="/strpg-hero/generated/assets/img/pages/space-lanes-66-400-1d11580c7.jpg 400w, /strpg-hero/generated/assets/img/pages/space-lanes-66-800-1d11580c7.jpg 800w, /strpg-hero/generated/assets/img/pages/space-lanes-66-1000-1d11580c7.jpg 1000w" /></p>
-
+<img src="/making-characters/38efP9vs1c-400.jpeg" alt="Drawing of Jaan Holona with Cargomaster Kinnda" loading="lazy" decoding="async" width="1200" height="393" srcset="/making-characters/38efP9vs1c-400.jpeg 400w, /making-characters/38efP9vs1c-800.jpeg 800w, /making-characters/38efP9vs1c-1200.jpeg 1200w" sizes="auto">
 <p>The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.</p>
-
 <p>The original FASA game tracked a person’s education in the character creation process, so that has been replicated to some extent. Skill packages are taken in order, and you don’t have to take all of them if your character has a different story. Maybe she went to another type of school, or dropped out of Starfleet Academy, or whatever. Players are free to just spend their points without these packages, of course. Just keep in mind that racial and cultural packages are mandatory for applicable species.</p>
-
-<h2 id="we-have-the-software">We Have the Software</h2>
-
-<p>There’s a little program called for making characters with the 5th or 6th Edition of the HERO system. It’s called <a href="https://www.herogames.com/store/product/1-hero-designer/">Hero Designer</a> and you can buy it from the official HERO Games site. Our group already has it from the old days, so I’m not sure if this is better or worse than the one we have. I haven’t had 25 dollars worth of curiosity yet.</p>
-
-<p>I’ve made <a href="/strpg-hero/assets/files/HERO_STRPG.zip">a bunch of packages and prefabs</a> for this stuff that you can just load into a new character. Just follow the educational track of your character and then tweak things before spending the points that remain. For those who want to do things the old-school way, I’ll try to provide enough information here on the site to build a merchant character.</p>
-
-<h2 id="dont-buy-it-twice">Don’t Buy It Twice</h2>
-
+<h2>We Have the Software</h2>
+<p>There's a little program called for making characters with the 5th or 6th Edition of the HERO system. It's called <a href="https://www.herogames.com/store/product/1-hero-designer/">Hero Designer</a> and you can buy it from the official HERO Games site. Our group already has it from the old days, so I'm not sure if this is better or worse than the one we have. I haven't had 25 dollars worth of curiosity yet.</p>
+<p>I’ve made <a href="'/files/HERO_STRPG.zip'">a bunch of packages and prefabs</a> for this stuff that you can just load into a new character. Just follow the educational track of your character and then tweak things before spending the points that remain. For those who want to do things the old-school way, I’ll try to provide enough information here on the site to build a merchant character.</p>
+<h2>Don’t Buy It Twice</h2>
 <p>Depending upon the packages you take, there might be some repetition. Just skip the ones you already have unless you want to buy a skill level to show advanced study. At the end of the day, they’re your points.</p>
-
-<h2 id="sysop-is-split">SysOp is Split</h2>
-
-<p>Systems Operation is a catch-all sort of skill in the HERO game system, but for this setting it represents many skills. A character will need different SysOp skill for the transporters than for the medical equipment in sickbay. These differences are shown in the <a href="/strpg-hero/skills/">skill packages</a> I’ve put together. As always, similar skills can compliment each other wherever this would make sense.</p>
-
-<h2 id="technical-skills-have-a-broader-scope">Technical Skills have a Broader Scope</h2>
-
-<p>There are lots of technical skills in Star Trek, so we’re going to make it a little easier to be knowledgable without blowing all of your character points on being an engineer. <strong>Astronautics, Mechanics and Electronics</strong> are general skills which will allow a character to do anything at a competent level. Skill levels can be bought normally for specific technologies, but there are only seven of them so they can be considered a “group of similar skills”. One skill level for all of them would cost five points, but you could by several 2-point skill levels for just one to be <strong>really</strong> good at just that.</p>
-
+<h2>SysOp is Split</h2>
+<p>Systems Operation is a catch-all sort of skill in the HERO game system, but for this setting it represents many skills. A character will need different SysOp skill for the transporters than for the medical equipment in sickbay. These differences are shown in the <a href="/skills/">skill packages</a> I’ve put together. As always, similar skills can compliment each other wherever this would make sense.</p>
+<h2>Technical Skills have a Broader Scope</h2>
+<p>There are lots of technical skills in Star Trek, so we’re going to make it a little easier to be knowledgable without blowing all of your character points on being an engineer. <strong>Astronautics, Mechanics and Electronics</strong> are general skills which will allow a character to do anything at a competent level. Skill levels can be bought normally for specific technologies, but there are only seven of them so they can be considered a &quot;group of similar skills&quot;. One skill level for all of them would cost five points, but you could by several 2-point skill levels for just one to be <strong>really</strong> good at just that.</p>
 <dl>
 	<dt>Astronautics</dt>
 	<dd>Repairing starships, shuttles and other things that go into space. This mostly involves the engines, but can also refer to superstructure and hardware like weapons and sensor arrays.</dd>
@@ -148,18 +135,12 @@
 	<dt>Mechanics</dt>
 	<dd>Anything not covered by the other two categories, plus anything with moving parts. Mechanics can be used for planet-based vehicles, shipboard systems which aren’t covered by Electronics, and whatever else makes sense.</dd>
 </dl>
-
 <p>Individual technical skills are purchased as skill levels, but they can be used with all three general skills. For example, if you buy a skill level in <em>Sensor Systems Technology</em>, you may apply it to Electronics for repairing a bridge console, or for Mechanics if you’re repairing a satellite dish. You could also use it for Astronautics if you’re working on the ships sensor array.
 A well-rounded civilian engineer from a merchant academy just gets these three base skills plus a bit more, and self-taught engineers sometimes have less. There are even people who buy a small ship and just know how to do the maintenance. How much you buy depends upon your character’s backstory.</p>
-
-<h2 id="some-perks-are-free">Some Perks Are Free</h2>
-
+<h2>Some Perks Are Free</h2>
 <p class="lead">Some Perks are used for role-playing purposes, so they won’t cost any points. The rank of <em>Captain</em>, for example, shouldn’t cost one player points just for taking the position. Here’s a list the things that cost points and the things that don’t:</p>
-
-<p><img alt="A hand extended to Cargomaster Kinnda, with another crewmember behind him." class="img-fluid d-block mx-auto" src="/strpg-hero/generated/assets/img/pages/space-lanes-68-800-d260fe08a.jpg" srcset="/strpg-hero/generated/assets/img/pages/space-lanes-68-400-d260fe08a.jpg 400w, /strpg-hero/generated/assets/img/pages/space-lanes-68-800-d260fe08a.jpg 800w, /strpg-hero/generated/assets/img/pages/space-lanes-68-1000-d260fe08a.jpg 1000w" /></p>
-
-<h3 id="perks-that-cost">Perks That Cost.</h3>
-
+<img src="/making-characters/8Hu4SVDYo5-400.jpeg" alt="A hand extended to Cargomaster Kinnda, with another crewmember behind him." loading="lazy" decoding="async" width="1200" height="550" srcset="/making-characters/8Hu4SVDYo5-400.jpeg 400w, /making-characters/8Hu4SVDYo5-800.jpeg 800w, /making-characters/8Hu4SVDYo5-1200.jpeg 1200w" sizes="auto">
+<h3>Perks That Cost.</h3>
 <dl>
 	<dt>Engineer</dt>
 	<dd>This is an official license which could affect gameplay, so it still costs a point. It’s included in the engineering school packages.</dd>
@@ -168,9 +149,7 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 	<dt>Master Merchant Specialist (MMS)</dt>
 	<dd>This certification <strong>does</strong> cost a point, because it’s the trader’s equivalent of a doctorate degree. A character with this certification is rated at Pay Grade 8 and can put the letters <strong>MMS</strong> after their name. Keep in mind that such a character is considered to be a master in their field, and should have a heavy skill set before purchasing this perk.</dd>
 </dl>
-
-<h3 id="perks-that-dont">Perks That Don’t</h3>
-
+<h3>Perks That Don't</h3>
 <dl>
 	<dt>UFP Interstellar Merchant’s Certification (Merchant’s Ticket)</dt>
 	<dd>Every merchant needs this certification in order to work on a merchant vessel with an official pay grade. It’s awarded after taking a certification test, regardless of how a character got the skills. Since players are already spending points for the skills required via merchant academies or apprenticeships or Starfleet equivalency waivers, they shouldn’t have to pay for the cert as well. <strong>No points</strong>.</dd>
@@ -181,38 +160,27 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 	<dt>Security Classification Rating (SECLAR)</dt>
 	<dd>It would be a shame if a character spent points for a high SECLAR and then lost it because of some screw-up during a mission. SECLAR can change for better or worse during play, so it’s a role-playing trait for the purposes of this game. <strong>No points</strong>.</dd>
 </dl>
-
-<h2 id="example-character">Example Character</h2>
-
-<p>I’m going to make a character with Hero Designer so we can test the various prefabs and packages that I provided in the <a href="/strpg-hero/assets/files/HERO_STRPG.zip">ZIP file</a>. Everything is in there, so I’ll be referencing that folder structure as we go. I recommend saving all of your characters in the <code>characters</code> folder so it will be easier to navigate to the others when you’re loading prefabs and whatnot.</p>
-
+<h2>Example Character</h2>
+<p>I'm going to make a character with Hero Designer so we can test the various prefabs and packages that I provided in the <a href="%22/files/HERO_STRPG.zip%22">ZIP file</a>. Everything is in there, so I'll be referencing that folder structure as we go. I recommend saving all of your characters in the <code>characters</code> folder so it will be easier to navigate to the others when you're loading prefabs and whatnot.</p>
 <p>Hopefully these notes will help you whether you’re using the software or just going old school with paper and pencil. Just keep in mind that these packages are meant to guide you, not restrict you. Starfleet officers will have lots in common, but there should be room to play with the numbers a bit.</p>
-
 <div class="alert alert-info" role="alert">
 	<strong>Note about Package Deals:</strong> You can't edit package deals. You have to make a character and save it that way. So the <code>characters/package_deal_source</code> folder contains the source characters that we can still edit, while the <code>packages</code> folder contains the resulting package deals that you'll import into your characters.
-
-	If you have prefabs loaded already and a package deal also has them, then you could end up with the same prefab twice. It's just a bug and won't affect your character build.
+<p>If you have prefabs loaded already and a package deal also has them, then you could end up with the same prefab twice. It's just a bug and won't affect your character build.</p>
 </div>
 <ol start="1">
 	<li>Create a new character. Doesn't matter what kind because we're about to load some campaign rules</li>
-	<li>Load Campaign Rules. Go to <em>Current Character &gt; Load Campaign Rules</em> and navigate to <code>campain_rules/standard_normal.hdr</code>. That will set your point limites to 75/75 as noted at the top of this page.</li>
-	<li>Load Prefabs. Three are three prefabs that we'll need: Everyman, General and Weapons. Go to <em>Prefabs &gt; Load Prefabs</em> and get all three from the <code>prefabs</code> folder.</li>
+	<li>Load Campaign Rules. Go to <em>Current Character > Load Campaign Rules</em> and navigate to <code>campain_rules/standard_normal.hdr</code>. That will set your point limites to 75/75 as noted at the top of this page.</li>
+	<li>Load Prefabs. Three are three prefabs that we'll need: Everyman, General and Weapons. Go to <em>Prefabs > Load Prefabs</em> and get all three from the <code>prefabs</code> folder.</li>
 </ol>
-
-<p>Go ahead any <strong>Everyman</strong> skills that you need, because they’re free. Remember, if you end up spending a point for a full skill, you can drop the familiarity. Consider it an upgrade. The <strong>General</strong> prefab has all of the game-specific skills that you’ll need. Many of these will be loaded via package deals, but you should check out the list anyway. The <strong>Weapons</strong> prefab will show up in the “Equipment” tab, and then remember to click “Prefabs” to see them.</p>
-
-<h3 id="now-were-cooking">Now We’re Cooking</h3>
-
-<p>At this point the Hero Designer people and the pencil/paper people should be on even footing. If you’re using paper, then the other pages in this section of the site will show you the point costs for everything. Either way, it’s time to start spending points. For the software, you can find package deals by going to <em>Current Character &gt; Apply Package Deal</em>. Then navigate to wherever your main folder is and look in the <code>packages</code> folder for all of the files. The filenames should be self-explanatory.</p>
-
+<p>Go ahead any <strong>Everyman</strong> skills that you need, because they're free. Remember, if you end up spending a point for a full skill, you can drop the familiarity. Consider it an upgrade. The <strong>General</strong> prefab has all of the game-specific skills that you'll need. Many of these will be loaded via package deals, but you should check out the list anyway. The <strong>Weapons</strong> prefab will show up in the &quot;Equipment&quot; tab, and then remember to click &quot;Prefabs&quot; to see them.</p>
+<h3>Now We're Cooking</h3>
+<p>At this point the Hero Designer people and the pencil/paper people should be on even footing. If you're using paper, then the other pages in this section of the site will show you the point costs for everything. Either way, it's time to start spending points. For the software, you can find package deals by going to <em>Current Character &gt; Apply Package Deal</em>. Then navigate to wherever your main folder is and look in the <code>packages</code> folder for all of the files. The filenames should be self-explanatory.</p>
 <ol start="4">
 	<li>Add the racial package that you want, and then the cultural package that you want. They’ll most likely match, but you could make a Terran who grew up on Andor by skipping the racial package entirely and just using the Andorian cultural package. I chose Andorian for both. Check all of the tabs to see what skills, perks and disads the character now has.</li>
 	<li>Since this is a Starfleet officer, add the Starfleet Academy package, followed by a branch school package. I chose E<em>ngineering</em>.</li>
 	<li>This character will be a captain, so I added the <em>Department Head School</em> package followed by <em>Command School</em>.</li>
 </ol>
-
 <p>The various lists are labeled to show you what came from where. At this point you’ve spent <strong>55/35</strong> and you can see a few problems. <em>Electronics</em> is given as a familiarity in Starfleet Academy, and then as a full skill in Engineering Branch School. This is intended as an upgrade, so we’ll end up dropping the familiarity and taking the point back. Similar issues are on other tabs, so I’ll make a quick list:</p>
-
 <ol start="7">
 	<li>
 		Electronics appears twice, as described above. I simply deleted the familiarity from Starfleet Academy, considering branch school as a completion of that skill. <em>That gave me back a point.</em>
@@ -221,7 +189,6 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 		There’s a space science elective in Starfleet Academy, and then there are a couple of specified space sciences in branch school. I could name something different for the elective so it won’t conflict, or I can drop that familiarity and consider <strong>Astrophysics</strong> or <strong>Warp Drive Physics</strong> to be an upgrade. It depends upon whether you want that point back. I’m choosing to put <strong>Astrogation</strong> in there, so my engineer will also know a little about navigating.
 	</li>
 </ol>
-
 <div class="alert alert-info" role="alert">
 	Astrogation is technically the <strong>Navigation</strong> skill from the HERO System, but it’s treated as a space science for the purpose of skill levels and character creation. (<em>It doesn’t count as one for skill enhancers like Scientist, however.)</em>
 </div>
@@ -241,23 +208,18 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 		If this were an Intelligence character with a cover identity, I would have to get rid of the disad for his uniform being a distinctive feature. No problem with that here, though. However, he’s a captain on a starship out on the frontier and tends to have standing orders rather than frequent orders. I’m reducing the <em>Subject to Orders</em> disadvantage to <em>Occasionally</em>, with a final value of five points.
 	</li>
 </ol>
-
 <p>And that’s it! I now have this character at <strong>58/30</strong>. That gives me 17 points to spend outright and another 45 points of disads that I can use if I need them.</p>
-
-<h3 id="character-creation-summary">Character Creation Summary</h3>
-
+<h3>Character Creation Summary</h3>
 <p>Even with one of the more expensive paths, you’ll still have points left over to customize your character. You should be able to make whatever kind of character you need. Keep in mind that you can mix and match as much as you like. Player characters for the game I have planned will wind up in <strong>Starfleet Intelligence</strong>, but there are lots of ways to get there. Your character could train up all the way within the Intelligence branch or be recruited from the outside. You could wash out of Starfleet Academy and complete your training as a civilian merchant’s apprentice. You could be any sort of civilian merchant and find yourself in a position to help the UFP through work as an agent or an asset. As long as the character winds up as a trusted operative within Starfleet Intelligence, the path to get there is up to you.</p>
 
       </div>
     </main>
-    <footer id="main-footer" class="main-footer py-3 bg-light">
+		<footer id="main-footer" class="main-footer py-3 bg-light">
       <div class="container">
         <p class="mb-0"><small><em>Star Trek is owned by Paramount. I don't know who owns the old FASA content, but it's not me. Nothing on this site is for sale. The whole thing is just for fun.</em></small></p>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/strpg-hero/assets/js/scripts.js"></script>
-  </body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="/js/index.js?cb=1745959438603"></script>
+	</body>
 </html>
