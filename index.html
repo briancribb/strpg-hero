@@ -1,156 +1,142 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="/strpg-hero/assets/css/styles.css">
-    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
+		<meta name="description" content="A fan-made RPG setting using content from Hero System and the FASA Star Trek RPG">
     <meta name="author" content="Brian Cribb">
-    <link rel="icon" href="/strpg-hero/assets/img/favicon.ico">
-  </head>
-  <body class="position-relative">
-    <header class="main-header">
-      <div class="navbar-wrap bg-primary">
-
+		<title>Star Trek Hero RPG</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<link rel="stylesheet" href="/css/styles.css?cb=1745959438603">
+	</head>
+	<body class="position-relative h-100">
+		<header class="main-header">
+			
+<div class="navbar-wrap bg-primary">
 <div class="container">
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <a class="navbar-brand" href="/strpg-hero/">STRPG</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">STRPG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0">
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Game
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Game
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item" href="/strpg-hero/setting/">Setting</a>
+                  <li><a class="dropdown-item" href="/setting/">Setting</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/trade/">Trade</a>
+                  <li><a class="dropdown-item" href="/trade/">Trade</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/tavares-commercial-freighter/">Tavares Commercial Freighter</a>
+                  <li><a class="dropdown-item" href="/tavares-commercial-freighter/">Tavares Commercial Freighter</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/klingon-trade-ship-vorn/">Klingon Trade Ship Vorn</a>
+                  <li><a class="dropdown-item" href="/klingon-trade-ship-vorn/">Klingon Trade Ship Vorn</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/remora-infiltration-shuttle/">Remora Infiltration Shuttle</a>
+                  <li><a class="dropdown-item" href="/remora-infiltration-shuttle/">Remora Infiltration Shuttle</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Resources
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item" href="/strpg-hero/fasa-books/">FASA Books</a>
+                  <li><a class="dropdown-item" href="/fasa-books/">FASA Books</a></li>
                 
-                  <a class="dropdown-item" href="http://briancribb.github.io/strpg-timeline/tl-react/" target="_blank">Timeline</a>
+                  <li><a class="dropdown-item" href="http://briancribb.github.io/strpg-timeline/tl-react/">Timeline</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
-          
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                HERO System
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              HERO System
+            </a>
+            
+              <ul class="dropdown-menu">
                 
-                  <a class="dropdown-item" href="/strpg-hero/making-characters/">Making Characters</a>
+                  <li><a class="dropdown-item" href="/making-characters/">Making Characters</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/skills/">Skills</a>
+                  <li><a class="dropdown-item" href="/skills/">Skills</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/racial-packages/">Racial Packages</a>
+                  <li><a class="dropdown-item" href="/racial-packages/">Racial Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/starfleet-packages/">Starfleet Packages</a>
+                  <li><a class="dropdown-item" href="/starfleet-packages/">Starfleet Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/merchant-packeges/">Merchant Packages</a>
+                  <li><a class="dropdown-item" href="/merchant-packeges/">Merchant Packages</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/weapons/">Weapons</a>
+                  <li><a class="dropdown-item" href="/weapons/">Weapons</a></li>
                 
-                  <a class="dropdown-item" href="/strpg-hero/martial-arts/">Martial Arts</a>
+                  <li><a class="dropdown-item" href="/martial-arts/">Martial Arts</a></li>
                 
-              </div>
-            </li>
-          
+              </ul>
+            
+          </li>
         
       </ul>
-      </div>
-    </nav>
-
+    </div>
   </div>
+</nav>
+</div>
 </div>
 
-
-      <div class="d-none d-md-block bg-space p-3 pt-4">
+			<div class="d-none d-md-block bg-space p-3 pt-4">
   <div class="container">
     <div class="row">
       <div class="col col-sm-8">
-        <a class="masthead-homelink" href="/strpg-hero/" title="STRPG" rel="home">
-          <img id="site-logo" class="site-logo" alt="Star Trek RPG" src="/strpg-hero/assets/img/layout/startrekrpg_logo.png">
-          <h1 class="site-title sr-only">STRPG</h1>
+        <a class="masthead-homelink" href="/" title="STRPG" rel="home">
+          <img id="site-logo" class="site-logo" alt="Star Trek RPG" src="/img/E4zjhii8Uu-400.png" loading="lazy" decoding="async" width="480" height="95" srcset="/img/E4zjhii8Uu-400.png 400w, /img/E4zjhii8Uu-480.png 480w" sizes="auto">
+          <h1 class="site-title visually-hidden">Star Trek RPG</h1>
           <p class="lead site-description m-0 p-0">HERO System in a FASA Star Trek setting</p>
         </a>
       </div>
       <div class="col col-sm-4">
-        <img id="site-enterprise" class="site-enterprise" alt="Starship Enterprise" src="/strpg-hero/assets/img/layout/bg_enterprise.jpg">
+        <img id="site-enterprise" class="site-enterprise" alt="Starship Enterprise" src="/img/1dqWunAMlO-250.jpeg" loading="lazy" decoding="async" width="250" height="100">
       </div>
     </div>
   </div>
 </div>
-    </header>
-    <main class="content py-4">
+
+		</header>
+		<main class="content py-4">
       <div class="container">
-        <h1 id="about-the-game">About the Game</h1>
-<p>This site is meant for a specific group of people, but I suppose anyone would enjoy the content. The idea is to have a Star Trek role-playing game, but using HERO system rules. The game will be set in the original series, and will use the timelines, settings and content of the old FASA game from way-back-when. Well, mostly. We’ll add stuff from other sources if it helps make things more fun.</p>
-
-<h2 id="why-fasa">Why FASA?</h2>
-
+				<h1>About the Game</h1>
+<p>This site is meant for a specific group of people, but I suppose anyone would enjoy the content. The idea is to have a Star Trek role-playing game, but using HERO system rules. The game will be set in the original series, and will use the timelines, settings and content of the old FASA game from way-back-when. Well, mostly. We'll add stuff from other sources if it helps make things more fun.</p>
+<h2>Why FASA?</h2>
 <p>Besides personal nostalgia, I have a deep respect for the work that was done by FASA. They had to describe the entire Star Trek universe with just the original series, a couple of movies and the books that had been published. It helped that some of the game writers had also written Star Trek novels. The books were full of lore and did a pretty good job of making sense of things.</p>
-
-<p>I was always disappointed with the way the various television shows kept changing the timeline, often tossing out major portions of the history and replacing it with other stuff. I understood the writing choices, though. When a show like Voyager goes to “modern day” in a time travel episode, it’s hard to compare Star Trek to real life because the 2000’s were already post-WWIII. The writers decided to move the apocalypse back a bit.</p>
-
-<p>My personal head canon was that the Temporal War described in the Enterprise series could be blamed for anything that got retconned. That way, everyone’s favorite version is equally legit. Imagine my surprise when Strange New Worlds turned my head canon into <strong><em>real</em></strong> canon! The Eugenics wars really did get moved around by battling time travelers!</p>
-
+<p>I was always disappointed with the way the various television shows kept changing the timeline, often tossing out major portions of the history and replacing it with other stuff. I understood the writing choices, though. When a show like Voyager goes to &quot;modern day&quot; in a time travel episode, it's hard to compare Star Trek to real life because the 2000's were already post-WWIII. The writers decided to move the apocalypse back a bit.</p>
+<p>My personal head canon was that the Temporal War described in the Enterprise series could be blamed for anything that got retconned. That way, everyone's favorite version is equally legit. Imagine my surprise when Strange New Worlds turned my head canon into <em><strong>real</strong></em> canon! The Eugenics wars really did get moved around by battling time travelers!</p>
 <p>But I digress. This game concept will use the FASA setting. Wherever the television shows conflict with FASA, I will most likely side with FASA. I’m going to post some primer information on this site so you’ll know where things land. I’ll also be posting som HERO system stats for various characters and things.</p>
-
-<p><img alt="Ink drawing of the USS Enterprise" class="img-fluid d-block mx-auto" src="/strpg-hero/generated/assets/img/pages/enterprise-front-sketch-800-187d428fb.jpg" srcset="/strpg-hero/generated/assets/img/pages/enterprise-front-sketch-400-187d428fb.jpg 400w, /strpg-hero/generated/assets/img/pages/enterprise-front-sketch-800-187d428fb.jpg 800w" /></p>
-
-<h2 id="how-much-hero-vs-how-much-fasa">How much HERO vs. How Much FASA</h2>
-
+<img src="/NuDtONThpq-400.jpeg" alt="Ink drawing of the USS Enterprise" class="img-fluid d-block mx-auto" loading="lazy" decoding="async" width="800" height="499" srcset="/NuDtONThpq-400.jpeg 400w, /NuDtONThpq-800.jpeg 800w" sizes="auto">
+<h2>How much HERO vs. How Much FASA</h2>
 <p>The setting will come from the FASA materials, but the game itself will use the HERO system. This means that characters, races weapons and everything will need to be converted. Instead of choosing a species and having bonuses or penalties, players will purchase racial packages with points. They’ll do the same with their professions. To keep things open and give the players some freedom, we’ll try to keep these packages as cheap as possible. After all, I want to encourage alien player characters.</p>
-
 <p>One thing that will not be converted is starship combat. FASA already did bunches of work on that, and I’m happy with it. Besides, our ship-to-ship battles will focus more on the characters than the ships. Once you pull out that starfield map and put ship counters down, the role-playing tends to give way to tactical playing. I’d rather keep my players in role-playing mode. This isn’t to say that we won’t use the system at all. It just won’t be used very much.</p>
-
 <p>However, if the players want to convert some small vehicles for some reason, we can use those since they would be on the same map as the characters.</p>
-
-<h2 id="what-about-new-shows-like-strange-new-worlds">What about New Shows like Strange New Worlds?</h2>
-
-<p>This game is based on the 1960’s sci-fi paradigm, which means that all the technology is of the “beep-boop” variety. But the game mechanics should be the same if you want to play in the newer style. The differences will be mostly cosmetic. The original Star Trek series depicts computer programming as physically rewiring a electronic device, while Strange New Worlds would have the characters writing code. Personally I prefer the old stuff, but I’ll admit that there’s some appeal to an engineer using an emergency as an excuse to write experimental code in Production.</p>
-
+<h2>What about New Shows like Strange New Worlds?</h2>
+<p>This game is based on the 1960's sci-fi paradigm, which means that all the technology is of the &quot;beep-boop&quot; variety. But the game mechanics should be the same if you want to play in the newer style. The differences will be mostly cosmetic. The original Star Trek series depicts computer programming as physically rewiring a electronic device, while Strange New Worlds would have the characters writing code. Personally I prefer the old stuff, but I'll admit that there's some appeal to an engineer using an emergency as an excuse to write experimental code in Production.</p>
 <p>The flavor of the setting is up to you. Have fun.  :-)</p>
 
       </div>
     </main>
-    <footer id="main-footer" class="main-footer py-3 bg-light">
+		<footer id="main-footer" class="main-footer py-3 bg-light">
       <div class="container">
         <p class="mb-0"><small><em>Star Trek is owned by Paramount. I don't know who owns the old FASA content, but it's not me. Nothing on this site is for sale. The whole thing is just for fun.</em></small></p>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/strpg-hero/assets/js/scripts.js"></script>
-  </body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="/js/index.js?cb=1745959438603"></script>
+	</body>
 </html>
